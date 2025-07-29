@@ -48,6 +48,21 @@ main {
         border: 1px solid #ac5d2d;
         width: 80px;
 
+             &::before {
+            content: "?";
+            font-weight: bold;
+            font-size: 30px;
+            color: red;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+        }
+
         img {
             height: 75px;
             padding: 5px;
